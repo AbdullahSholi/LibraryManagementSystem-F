@@ -20,6 +20,8 @@ $BASE_SQLCMD -i 2.activeBorrowersWithCTEs.sql
 
 $BASE_SQLCMD -i 3.borrowingFrequencyUsingWindowFunctions.sql
 
+$BASE_SQLCMD -i 4.popularGenreAnalysisUsingJoinsAndWindowFunctions.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
 
 
