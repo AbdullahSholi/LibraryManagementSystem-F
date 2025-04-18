@@ -12,7 +12,7 @@ CREATE TABLE Books (
 	Title VARCHAR(50) NOT NULL,
 	Author VARCHAR(50) NOT NULL,
 	ISBN VARCHAR(17) NOT NULL,
-	PublishedData DATE NOT NULL,
+	PublishedDate DATE NOT NULL,
 	Genre VARCHAR(50) NOT NULL,
 	ShelfLocation VARCHAR(50) NOT NULL,
 	CurrentStatus VARCHAR(50) NOT NULL CHECK (CurrentStatus IN('Available', 'Borrowed'))
