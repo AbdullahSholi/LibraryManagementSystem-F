@@ -16,5 +16,8 @@ $BASE_SQLCMD -i SeedDatabaseTables.sql
 
 $BASE_SQLCMD -i 1.listOfBorrowedBooks.sql
 
+$BASE_SQLCMD -i 2.activeBorrowersWithCTEs.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
+
 
