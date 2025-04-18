@@ -22,6 +22,8 @@ $BASE_SQLCMD -i 3.borrowingFrequencyUsingWindowFunctions.sql
 
 $BASE_SQLCMD -i 4.popularGenreAnalysisUsingJoinsAndWindowFunctions.sql
 
+$BASE_SQLCMD -i 5.storedProcedure-AddNewBorrowers.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
 
 
