@@ -14,21 +14,23 @@ $BASE_SQLCMD -i CreateDatabaseTables.sql
 
 $BASE_SQLCMD -i SeedDatabaseTables.sql
 
-# $BASE_SQLCMD -i 1.listOfBorrowedBooks.sql
+$BASE_SQLCMD -i 1.listOfBorrowedBooks.sql
 
-# $BASE_SQLCMD -i 2.activeBorrowersWithCTEs.sql
+$BASE_SQLCMD -i 2.activeBorrowersWithCTEs.sql
 
-# $BASE_SQLCMD -i 3.borrowingFrequencyUsingWindowFunctions.sql
+$BASE_SQLCMD -i 3.borrowingFrequencyUsingWindowFunctions.sql
 
-# $BASE_SQLCMD -i 4.popularGenreAnalysisUsingJoinsAndWindowFunctions.sql
+$BASE_SQLCMD -i 4.popularGenreAnalysisUsingJoinsAndWindowFunctions.sql
 
-# $BASE_SQLCMD -i 5.storedProcedure-AddNewBorrowers.sql
+$BASE_SQLCMD -i 5.storedProcedure-AddNewBorrowers.sql
 
-# $BASE_SQLCMD -i 6.databaseFunction-CalculateOverdueFees.sql
+$BASE_SQLCMD -i 6.databaseFunction-CalculateOverdueFees.sql
 
-# $BASE_SQLCMD -i 7.databaseFunction-BookBorrowingFrequency.sql
+$BASE_SQLCMD -i 7.databaseFunction-BookBorrowingFrequency.sql
 
 $BASE_SQLCMD -i 8.overdueAnalysis.sql
+
+$BASE_SQLCMD -i 9.authorPopularityUsingAggregation.sql
 
 $BASE_SQLCMD -i DeleteTablesData.sql
 
