@@ -32,6 +32,8 @@ $BASE_SQLCMD -i 8.overdueAnalysis.sql
 
 $BASE_SQLCMD -i 9.authorPopularityUsingAggregation.sql
 
+$BASE_SQLCMD -i 10.genrePreferenceByAgeUsingGroupByAndHaving.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
 
 
