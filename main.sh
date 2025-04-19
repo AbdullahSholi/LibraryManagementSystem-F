@@ -26,6 +26,8 @@ $BASE_SQLCMD -i 5.storedProcedure-AddNewBorrowers.sql
 
 $BASE_SQLCMD -i 6.databaseFunction-CalculateOverdueFees.sql
 
+$BASE_SQLCMD -i 7.databaseFunction-BookBorrowingFrequency.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
 
 
