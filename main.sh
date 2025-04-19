@@ -34,6 +34,8 @@ $BASE_SQLCMD -i 9.authorPopularityUsingAggregation.sql
 
 $BASE_SQLCMD -i 10.genrePreferenceByAgeUsingGroupByAndHaving.sql
 
+$BASE_SQLCMD -i 11.storedProcedure-BorrowedBooksReport.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
 
 
