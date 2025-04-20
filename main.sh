@@ -40,6 +40,8 @@ $BASE_SQLCMD -i 12.triggerImplementation.sql
 
 $BASE_SQLCMD -i 13.tempTable.sql
 
+$BASE_SQLCMD -i databaseIndexing.sql
+
 $BASE_SQLCMD -i DeleteTablesData.sql
 
 
